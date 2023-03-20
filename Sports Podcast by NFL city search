@@ -1,0 +1,5 @@
+This code uses the Spotify API to search for sports podcasts in each city by using the city name as a search parameter. The search_podcasts function takes a city name as an argument, sends a GET request to the Spotify API, and returns the show ID of the top sports podcast in the city.
+
+The main code loops through a list of cities with NFL franchises, calls the search_podcasts function for each city, and prints the URL of the top sports podcast in the city if one is found. If no sports podcast is found, it prints a message saying so.
+
+Note that this code assumes that you have a valid access token for the Spotify API. You will need to obtain an access token and replace <YOUR_ACCESS_TOKEN> in the code with your actual token.
