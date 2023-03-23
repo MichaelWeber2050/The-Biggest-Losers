@@ -15,7 +15,7 @@ def search_podcasts(city):
         if len(data["results"]) > 0:
             return data["results"][0]["collectionId"]
     
-    # Return None if no podcast was found or there was an error
+    # Return None if no podcast was found or there was an error 
     return None
 
 # Define a list of cities with NFL franchises
