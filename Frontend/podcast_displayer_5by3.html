@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Podcast Storefront</title>
+	<style>
+		body {
+			background-color: #f8f8f8;
+			font-family: Arial, sans-serif;
+		}
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		.section {
+			margin-top: 40px;
+		}
+		.section-header {
+			font-size: 28px;
+			font-weight: bold;
+			margin-bottom: 20px;
+			text-transform: uppercase;
+		}
+		.podcast-list {
+			display: flex;
+			flex-wrap: nowrap;
+			overflow-x: scroll;
+			margin-bottom: 30px;
+			padding-bottom: 10px;
+			border-bottom: 1px solid #ddd;
+			scrollbar-width: none; /* hide scrollbar in Firefox */
+			-ms-overflow-style: none; /* hide scrollbar in IE/Edge */
+		}
+		.podcast-list::-webkit-scrollbar { /* hide scrollbar in Chrome/Safari/Opera */
+    		display: none;
+		}
+		.podcast-item {
+			flex: 0 0 auto;
+			width: 220px;
+			margin-right: 20px;
+			background-color: #fff;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+			padding: 10px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			text-align: center;
+			cursor: pointer;
+			transition: transform 0.2s ease-in-out;
+		}
+		.podcast-item:hover {
+			transform: translateY(-5px);
+			box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+		}
+		.podcast-item img {
+			max-width: 100%;
+			height: auto;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="section">
+			<div class="section-header">NFL Podcasts</div>
+			<div class="podcast-list">
+				<div class="podcast-item">
+					<a href="https://podcasts.apple.com/us/podcast/id208643372">
+					<img src="https://example.com/nfl-podcast-1.jpg" alt="NFL Podcast 1">
+					<div>Podcast Name 1</div>
+				</a>
+				</div>
+				<div class="podcast-item">
+					<img src="https://example.com/nfl-podcast-2.jpg" alt="NFL Podcast 2">
+					<div>Podcast Name 2</div>
+				</div>
+				<div class="podcast-item">
+					<img src="https://example.com/nfl-podcast-3.jpg" alt="NFL Podcast 3">
+					<div>Podcast Name 3</div>
+				</div>
+				<!-- add more podcast items as needed -->
+			</div>
+		</div>
+		<div class="section">
+			<div class="section-header">NBA Podcasts</div>
+			<div class="podcast-list">
+				<div class="podcast-item">
+					<img src="https://example.com/nba-podcast-1.jpg" alt="NBA Podcast 1">
+					<div>Podcast Name 1</div>
+				</div>
+				<div class="podcast-item">
+					<img src="https://example.com/nba-podcast-2.jpg" alt="NBA Podcast 2">
+					<div>Podcast Name 2</div>
+				</div>
+				<div class="podcast-item">
+					<img src="https://example.com/nba-podcast-3.jpg" alt="NBA Podcast 3">
+					<div>Podcast Name 3</div>
+				</div>
+				<!-- add more podcast items as needed -->
+			</div>
+		</div>
+		<!-- add more sections and podcast lists as needed -->
+		<div class="section">
+			<div class="section-header">MLB Podcasts</div>
+			<div class="podcast-list">
+				<div class="podcast-item">
+					<img src="https://example.com/mlb-podcast-1.jpg" alt="MLB Podcast 1">
+					<div>Podcast Name 1</div>
+				</div>
+				<div class="podcast-item">
+					<img src="https://example.com/mlb-podcast-2.jpg" alt="MLB Podcast 2">
+					<div>Podcast Name 2</div>
+				</div>
+				<div class="podcast-item">
+					<img src="https://example.com/mlb-podcast-3.jpg" alt="MLB Podcast 3">
+					<div>Podcast Name 3</div>
+				</div>
+				<!-- add more podcast items as needed -->
+			</div>
+			<div class="section">
+			<div class="section-header">NHL Podcasts</div>
+			<div class="podcast-list">
+				<div class="podcast-item">
+					<img src="https://example.com/nhl-podcast-1.jpg" alt="NHL Podcast 1">
+					<div>Podcast Name 1</div>
+				</div>
+				<div class="podcast-item">
+					<img src="https://example.com/nhl-podcast-2.jpg" alt="NHL Podcast 2">
+					<div>Podcast Name 2</div>
+				</div>
+				<div class="podcast-item">
+					<img src="https://example.com/nhl-podcast-3.jpg" alt="NHL Podcast 3">
+					<div>Podcast Name 3</div>
+				</div>
+				<!-- add more podcast items as needed -->
+			</div>
+			<div class="section">
+			<div class="section-header">CBB Podcasts</div>
+			<div class="podcast-list">
+				<div class="podcast-item">
+					<img src="https://example.com/cbb-podcast-1.jpg" alt="CBB Podcast 1">
+					<div>Podcast Name 1</div>
+				</div>
+				<div class="podcast-item">
+					<img src="https://example.com/cbb-podcast-2.jpg" alt="CBB Podcast 2">
+					<div>Podcast Name 2</div>
+				</div>
+				<div class="podcast-item">
+					<img src="https://example.com/cbb-podcast-3.jpg" alt="CBB Podcast 3">
+					<div>Podcast Name 3</div>
+				</div>
+				<!-- add more podcast items as needed -->
+			</div>
+		</div>
+		</div>
+		</div>
+	</div>
+</body>
+</html>
